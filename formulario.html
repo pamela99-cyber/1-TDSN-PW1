@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+</head>
+    <body>
+        <center><h1>Cadastro de Pessoas</h1></center>
+        <form action="" method="post">
+            <center>Nome: <input type="text" placeholder="Nome" required>
+            E-mail: <input type="email" placeholder="E-mail" required></center>
+            <br>
+            <center>Telefone: <input type="tel" placeholder="Telefone">
+            Data de Nascimento: <input type="date" max="2024-08-26"></center>
+            <br>
+            <center>Categoria: 
+            <input type="radio" name="tipo">Estudante
+            <input type="radio" name="tipo">Professor
+            <input type="radio" name="tipo">Funcionário</center>
+            <br>
+            <center>Possui interesse em:
+            <input type="checkbox">Mecânica
+            <input type="checkbox">T.I.
+            <input type="checkbox">Elétrica</center>
+            <br>
+            <center>Quantos cursos você já fez na escola?
+            <input type="number" min="0"></center>
+            <br>
+            <center>Selecione a unidade desejada: 
+            <select>
+                <option>Sorocaba - Santa Rosália</option>
+                <option>Sorocaba - Jardim Paulistano</option>
+                <option>Sorocaba - Jardim Vergueiro</option>
+            </select></center><br>
+            <center>Insira sua foto:
+            <input type="file"></center>
+            <br>
+            <center><input type="reset" value="Limpar">
+            <input type="submit" value="Enviar"></center><br>
+
+        </form>
+    </body>
+</html>
