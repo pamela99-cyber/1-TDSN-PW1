@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h3>Formulario</h3>
+    <h5>Login e Senha</h5>
+    <form action="" method="post">
+    <!-- Action serve para incluir a pasta onde a resposta do formulario será guardada -->
+        <input type="email" placeholder="e-mail" required><br>
+        <!-- placeholder será a informação que aparecerá na caixinha antes que o usuario escreva algo -->
+        <input type="password" placeholder="Senha" required><br>
+        <!-- required obriga o usuario a incluir a informação -->
+        <button type="submit">Enviar</button>
+    </form> 
+    <br><h5>Form de Contato</h5>
+    <form action="" method="post">
+        <input type="text" placeholder="Nome" required><br>
+        <input type="text" placeholder="Assunto" required><br>
+        <textarea cols= "100" rows="10" placeholder="Mensagem" ></textarea><br>
+        <input type="button" value="Enviar">
+    </form>
+    <br><h5>Formulario com opções</h5>
+    <form action="" method="post">
+        <input type="radio" name="tipo">Carro<br>        
+        <input type="radio" name="tipo">Moto<br>
+        <input type="radio" name="tipo">Bicicleta<br>            
+        <!-- Seleciona apenas um por vez. Se alterar o tipo você consegue selecionar mais de uma ao mesmo tempo -->
+         <input type="checkbox">Gasolina<br>
+         <input type="checkbox">Etanol<br>
+         <input type="checkbox">Diesel<br>
+         <input type="checkbox">Elétrico<br>
+         <!-- Consegue selecionar todas as opções -->
+          <select>
+            <option>Açougue</option>
+            <option>Padaria</option>
+            <option>Farmacia</option>
+            <option>Posto de Gasolina</option>
+          </select>
+    </form>
+    <br><h2>Entradas Diversas</h2>
+    <form action="" method="post">
+       Número <input type="number" max="20" min="1"><br>
+       Data <input type="date" max="2024-08-30" min="2024-08-26"><br>
+       Hora<input type="time"><br>
+       Data e Hora <input type="datetime-local"><br>
+       Cor <input type="color"><br>
+       Arquivo <input type="file"><br>
+       Imagem <input type="image"><br>
+       Intervalo <input type="range" min="1" max="20" step="2" value="2"><br>
+       Telefone <input type="tel"><br>
+       <input type="reset" value="limpar">
+       <input type="submit" value="Enviar"><br>
+    </form>
+</body>
+</html>
