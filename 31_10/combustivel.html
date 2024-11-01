@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<script>
+    let comb = parseInt(prompt("Digite o combustível ((G)- Gasolina ou (E) Etanol): "));
+    let quant = Number(prompt("Digite quantos litros voce deseja: "));
+    switch(comb)
+    {
+        case 'G':
+        case 'g':
+            vlt = 5.8*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        case 'E':
+        case 'e':
+            vlt = 4.2*quant
+            alert("O valor do compra é  R$ " + vlt);
+           break;
+        default:
+        alert("Código inválido");
+        break;
+    }
+</script> 

@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+    let mes = Number(prompt("Digite o número do mes: "));
+    switch(mes)
+    {
+        case 2:
+            alert("O mes possui 28 dias");
+            break;
+        case 4:
+        case 6:
+        case 9:
+        case 11:
+            alert("O mes possui 30 dias");
+            break;
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            alert("O mes possui 31 dias");
+            break;
+        default:
+        alert("Número inválido");
+        break;
+    }
+</script>

@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+<script>
+    let produto = parseFloat(prompt("Digita o código do produto(1 Pão frances, 2 Mortadela,3 Muçarela, 4 Sonho ou 5 Pao de Forma): "));
+    let quant = parseFloat(prompt("Digita a quantidade do produto: "));
+    switch(produto)
+    {
+        case 1:
+            vlt = 0.2*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        case 2:
+            vlt = 3.0*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        case 3:
+            vlt = 3.5*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        case 4:
+            vlt = 5.5*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        case 5:
+            vlt = 6.0*quant
+            alert("O valor do compra é  R$ " + vlt);
+            break;
+        default:
+        alert("Código inválido");
+        break;
+    }
+</script>
